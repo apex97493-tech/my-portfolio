@@ -1,0 +1,159 @@
+MERN STACK COURSE
+
+Assignment: Personal Portfolio Website
+
+Build a professional full-stack portfolio using the MERN Stack
+
+Deadline: [April 10, 2026]
+
+Total Marks: 10
+
+Type: Individual
+
+Submission: GitHub Public
+
+Repository Link
+
+Objective
+
+As future MERN stack developers, your online presence is your first impression to employers. In this assignment, you will design and develop a complete personal portfolio website from scratch using React.js (Frontend), Node.js + Express.js (Backend), and MongoDB (Database). Your portfolio must be deployed and fully functional a living CV that showcases your skills, projects, and professional identity.
+
+Required Sections & Features
+
+1. Hero / Landing Section
+
+Animated intro with your name, role, and designation
+
+Typewriter effect or scroll-triggered entrance animation
+
+Call-to-action (CTA) button to Download CV
+
+Professional background or gradient design
+
+2. About Me
+
+Short professional bio and your profile photo
+
+Location, current status (student/fresher/working)
+
+Animate section entry on scroll (e.g., fade-in, slide-up)
+
+3. Skills Section
+
+Animated skill bars or radial/circular progress charts
+
+Group skills by category: Frontend, Backend, Tools & Technologies
+
+Hover effects and tooltips showing proficiency level
+
+4. Projects Showcase
+
+Minimum 3 projects displayed as interactive cards
+
+Each card: project name, description, tech stack badges
+
+GitHub repository link and live demo link for each project
+
+Filter/sort by technology (optional but adds marks)
+
+5. CV/Resume Download
+
+Allow users to download your resume in PDF format
+
+Allow users to download your resume in Word (.docx) format
+
+Files must be served via a Node.js/Express.js backend route
+
+6. Education & Experience Timeline
+
+Vertical animated timeline layout
+Show degrees, institutions, years of study
+
+Include internships or work experience if applicable
+
+7. Certifications & Achievements
+
+Display certificates from Coursera, NPTEL, LinkedIn Learning, or any platform
+
+Show certificate image or link to verified certificate
+
+Include any hackathon participations or awards
+
+8. Contact Form (Backend Connected)
+
+Functional HTML contact form with Name, Email, Message fields
+
+Form connected to Express.js backend API route
+
+Messages stored in MongoDB using Mongoose
+
+Optional: send email notification via Nodemailer upon form submission
+
+Technical Requirements Checklist
+
+All of the following must be implemented to receive full marks:
+
+React.js frontend with React Router (single-page application)
+
+Node.js + Express.js REST API backend
+
+MongoDB + Mongoose for storing contact form submissions
+
+Some animations (Framer Motion, GSAP, AOS, or CSS animations)
+
+Fully responsive design must work on mobile, tablet, and desktop
+
+Dark mode / Light mode toggle
+
+CV available for download in both PDF and Word (.docx) format from backend
+
+Deployed live Frontend on Vercel or Netlify, Backend on Render or Railway
+
+Environment variables used for sensitive data (.env file NOT pushed to GitHub)
+
+Marking Rubric
+
+Criteria
+
+UI Design & Responsiveness
+
+Details
+
+Clean layout, mobile-first design, consistent color theme, dark/light mode toggle
+
+Animations & Interactivity
+
+Smooth scroll animations, animated skill bars, typewriter effect, hover states
+
+MERN Stack Integration
+
+React frontend + Express API + MongoDB contact form working end-to-end
+
+CV Download (PDF + DOCX)
+
+Both formats downloadable via a working backend route, correct file served
+
+Projects & Content Quality
+
+Minimum 3 projects with GitHub + live links, real meaningful descriptions
+
+Deployment
+
+Frontend and backend both deployed live and accessible via public URL
+
+Code Quality & GitHub
+
+Organized folder structure, meaningful commits, README.md, .env not exposed
+Submission Instructions
+
+Submit your GitHub public repository link in Google Classroom by the deadline.
+
+Your repository must include:
+
+Complete source code with /client (React) and /server (Node/Express) folders
+
+A README.md file with: project description, live deployment link, and local setup steps
+
+All dependencies listed in package.json files
+
+A.gitignore file that excludes node_modules and .env
