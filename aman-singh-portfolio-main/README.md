@@ -37,7 +37,7 @@ Full-stack personal portfolio for **Aman Singh**, Cyber Security & Software Deve
 ### 1. Clone
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd aman-singh-portfolio
 ```
 
@@ -67,7 +67,6 @@ Frontend runs at `http://localhost:5173`.
 ### 4. CV Files
 
 Place `resume.pdf` and `resume.docx` in `server/assets/cv/`.
-They are already copied from the project root during build.
 
 ## Environment Variables
 
